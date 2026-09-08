@@ -2,7 +2,7 @@
 
 This repository contains my revised and updated implementations of the exercises and projects from the [Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction).
 
-The notebooks are based on the original course material, with modifications, corrections, and updated setup instructions where needed to work with newer versions of libraries and environments.
+The notebooks are based on the original course material, with modifications, corrections, and updated setup instructions where needed.
 
 ## Course Units
 
@@ -14,38 +14,28 @@ The notebooks are based on the original course material, with modifications, cor
 - [Unit 6 — Actor-Critic Methods](notebooks/unit6/unit6.ipynb)
 - [Unit 7 — Multi-Agent Reinforcement Learning](notebooks/unit7/unit7.ipynb)
 
-## Why Revised?
+## Revisions and Updates
 
-Some commands, dependencies, and APIs in the original course material can become outdated as the underlying libraries and environments evolve.
+The notebooks contain modifications made while following the course and reproducing its exercises.
 
-These notebooks document the changes I made while following the course, including updated code and environment setup where necessary.
+The changes vary between units and may include:
 
-The goal is to make the course exercises easier to reproduce with more recent software versions.
+- Updating outdated commands or library APIs
+- Fixing code that no longer works with newer versions of dependencies
+- Updating environment and installation instructions
+- Modifying code to work with the current software environment
+- Adding explanations and comments to clarify concepts
+- Making small implementation changes where necessary
 
-## Unit 7 — Multi-Agent Reinforcement Learning
+For example, some units may require updated commands or dependency versions, while others may contain implementation changes or additional explanations based on the issues encountered during the course.
 
-Unit 7 uses Unity ML-Agents and the SoccerTwos environment to demonstrate multi-agent reinforcement learning and self-play.
-
-The original course setup may require modifications because of changes in ML-Agents and its dependencies.
-
-The Unit 7 notebook therefore includes an updated local setup and revised commands used to run the environment.
-
-> **Note:** The SoccerTwos training environment requires significant computational time. The Unit 7 notebook is intended to be run locally rather than in Google Colab for the full training process.
+The goal is to document practical solutions and working setups for problems encountered while following the course.
 
 ## Environment and Compatibility
 
-The exact versions and setup may vary as the underlying libraries continue to change.
+The exact versions and setup may vary as the underlying libraries and environments continue to change.
 
-For Unit 7, the local setup currently uses:
-
-- Python 3.10.12
-- Unity ML-Agents
-- ML-Agents Environments
-- PyTorch
-- CUDA-enabled GPU training
-- Unity SoccerTwos environment
-
-The notebooks document the setup used when the corresponding unit was completed.
+The notebooks document the setup and changes used when the corresponding unit was completed.
 
 ## Disclaimer
 
