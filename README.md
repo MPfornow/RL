@@ -2,7 +2,7 @@
 
 This repository contains my revised and updated implementations of the exercises and projects from the [Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction).
 
-The notebooks are based on the original course material, with modifications, corrections, and updated setup instructions where needed.
+The notebooks are based on the original course material, with modifications, corrections, and updated setup instructions where needed (windows version).
 
 ## Course Units
 
